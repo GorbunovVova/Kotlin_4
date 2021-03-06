@@ -24,7 +24,7 @@ class Aircraft {
 
     var range: Int = 100
         set(value) {
-            if ((value > 100) and (value < 5000))
+            if ((value > 100) and (value < 20000))
                 field = value
         }
 

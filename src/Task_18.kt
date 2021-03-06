@@ -21,7 +21,7 @@ class Aircraft_2(number: Int, range: Int, tankCapacity: Int) {
     var range: Int = 100
 
     init {
-        if ((range > 100) and (range < 5000))
+        if ((range > 100) and (range < 20000))
             this.range = range
     }
 
